@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Семантическая разметка страницы</title>
+    <meta charset="utf-8">
+    </head>
+    <body>
+      <style>
+      *{
+        color: white;
+      }
+        div{
+           background-color: green;
+           padding-top: 10px;
+           padding-left: 15px;
+           padding-right: 15px;
+           padding-bottom: 10px;
+         }
+        .nav_list,h2{
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        header,nav,footer{
+          text-align: center;
+        }
+        h1,nav{
+          font-size: 25px;
+        }
+        header{
+            background-color: red;
+            height: 70px;
+            line-height: 70px;
+            font-size: 30px;
+          }
+        nav{
+          background-color:orange;
+          height: 50px;
+          line-height: 50px;
+        }
+        article{
+            background-color:blue;
+            margin: 7px;
+            padding: 30px;
+
+        }
+        footer{
+            background-color:purple;
+            height: 70px;
+            line-height: 70px;
+            font-size: 20px;
+        }
+      </style>
+<header>Header</header>
+<nav>
+<ul class="nav_list">
+<la><a href="#">Navigation 1</a></la>
+<la><a href="#">Navigation 2</a></la>
+<la><a href="#">Navigation 3</a></la>
+</ul>
+</nav>
+<div>
+<article>
+  <h1>Article 1</h1>
+  <ul>
+    <li>Оригинальная трилогия</li>
+    <li>Трилогия приквелов</li>
+    <li>Трилогия сиквелов</li>
+  </ul>
+</article>
+<article>
+  <h1>Article 2</h1>
+  <ol>
+    <li>Звездные войны!?</li>
+    <li>Серьезно!?</li>
+    <li>Так себе....</li>
+  </ol>
+</article>
+</div>
+<footer>
+  <h2>Footer</h2>
+</footer>
+    </body>
+</html>
